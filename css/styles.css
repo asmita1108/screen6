@@ -129,19 +129,16 @@ body {
 .location-result p {
     color: #242A4B;
 }
-.location-detect a {
+.location-next-icon {
     float: right;
-    margin-top: 3px;
-}
-.location-detect a img {
-    fill: green;
+    margin-top: 5px;
     color: #AFB1BC;
     width: 10px;
     height: 19px;
 }
 .location-detect a:hover {
      outline: none !important;
-     border: none;
+     text-decoration: none;
 }
 .location-section:after {
     display: block;
@@ -162,31 +159,3 @@ body {
     margin: 20px 0px 20px 0px;
 }
 
-.img-container {
-    width: 63pt;
-    height: 63pt;
-    margin-left: 7%;
-    margin-top: 25%; 
-    justify-content: center;
-    padding: 10pt;
-    background-color: rgba(250, 158, 10, 0.55); 
-    display: inline-block;
-    opacity: 70%;
-    border-radius: 5pt;
-}
-
-.img-container img {
-    display: block;
-    margin: auto;
-    margin-top: 0px;
-    width: 46.02pt;
-    height: 43.15pt;
-}
-
-input {
-    
-}
-
-img {
-    
-}
