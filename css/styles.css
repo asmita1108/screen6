@@ -117,19 +117,27 @@ body {
     width: 100%;
 }
 .location-detect p {
-    width: auto;
-    height: 20px;
+    display: block;
+    width: 400px;
+    float: left;
+    height: 40px;
     font-size: 14pt;
-    text-align: left;
     color: #541871;
     opacity: 100%;
     margin-left:10px;
-    display: inline;
+    
+}
+.text-wrap-inline {
+    height: auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .location-result p {
     color: #242A4B;
 }
 .location-next-icon {
+    display: block;
     float: right;
     margin-top: 5px;
     color: #AFB1BC;
@@ -146,16 +154,21 @@ body {
     background-color: #EDEDED;
     content: " ";
     width: 375pt;
-    margin: 0, auto;
     margin: 20px -15px 20px -15px;
 }
 .location-result:after {
     display: block;
+    clear: both;
     height: 1pt;
     background-color: #EDEDED;
     content: " ";
     width: 100%;
-    margin: 0, auto;
     margin: 20px 0px 20px 0px;
 }
 
+
+.location-detect {
+    height: 50px;
+    max-width: 100%;
+    zoom: 1;
+}
