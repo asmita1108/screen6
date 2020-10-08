@@ -241,7 +241,7 @@ body {
 }
 @media screen and (max-width: 325px) {
     .divider-2pt:after {
-        margin-top: 70px;
+        margin-top: 75px;
     }
 }
 @media screen and (max-width: 270px) {
@@ -251,6 +251,9 @@ body {
 }
 @media screen and (max-width: 240px) {
     .divider-2pt:after {
-        margin-top: 100px;
+        margin-top: 125px;
+    }
+    .location-detect {
+        margin-top: 50px;
     }
 }
