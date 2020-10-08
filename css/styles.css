@@ -105,7 +105,7 @@ body {
 .searchBar > img {
   width: 20px;
   height: auto;
-  vertical-align: baseline;    
+  vertical-align: sub;    
 }
 .searchBar > input {
   border: none;
@@ -234,17 +234,22 @@ body {
 /* MEDIA QUERRY */
 /********************************/
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 425px) {
     .divider-2pt:after {
         margin-top: 50px;
     }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 325px) {
     .divider-2pt:after {
         margin-top: 70px;
     }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 270px) {
+    .divider-2pt:after {
+        margin-top: 100px;
+    }
+}
+@media screen and (max-width: 240px) {
     .divider-2pt:after {
         margin-top: 100px;
     }
